@@ -28,3 +28,6 @@ def jump(self, nums):
             if i<length:
                 graph[num].append(nums[i])
     return BFS(graph,nums)
+
+
+#
